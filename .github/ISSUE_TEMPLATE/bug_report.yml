@@ -1,0 +1,66 @@
+name: "Bug Report"
+description: "Report a reproducible issue or regression"
+labels:
+  - bug
+  - needs-triage
+title: "bug: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to file a bug! Please provide as much context as possible so we can help quickly.
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details (optional)
+      description: How can we reach you if we need more info?
+      placeholder: "@username or email"
+    validations:
+      required: false
+  - type: dropdown
+    id: area
+    attributes:
+      label: Impacted area
+      options:
+        - UI / Layout
+        - API / Backend
+        - Authentication
+        - AI features
+        - Tooling / DX
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Provide a clear and concise description of the issue.
+      placeholder: Tell us what you expected to happen and what actually happened.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to reproduce
+      description: Provide a minimal list of steps or a repository link that demonstrates the issue.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Screenshots
+      description: Drag-and-drop images or paste any relevant console output.
+      render: shell
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: App version / commit hash
+      placeholder: e.g. v1.2.0 or abc1234
+    validations:
+      required: true
