@@ -1,6 +1,12 @@
-# Next.js Application
+# Kaelocs Next.js Application
 
-A modern Next.js application with TypeScript, Tailwind CSS, and essential libraries for building production-ready web applications.
+[![CodeQL status](https://img.shields.io/github/actions/workflow/status/Kaelocs/Kaelocs/codeql.yml?label=CodeQL&logo=github)](https://github.com/Kaelocs/Kaelocs/actions/workflows/codeql.yml)
+[![Dependabot](https://img.shields.io/badge/Dependabot-enabled-025E8C?logo=dependabot)](https://github.com/Kaelocs/Kaelocs/network/updates)
+[![License: MIT](https://img.shields.io/github/license/Kaelocs/Kaelocs)](./LICENSE)
+[![Open issues](https://img.shields.io/github/issues/Kaelocs/Kaelocs?logo=github)](https://github.com/Kaelocs/Kaelocs/issues)
+[![Contributors](https://img.shields.io/github/contributors/Kaelocs/Kaelocs?logo=github)](https://github.com/Kaelocs/Kaelocs/graphs/contributors)
+
+A modern Next.js application with TypeScript, Tailwind CSS, dependable CI/CD, and essential libraries for building production-ready web applications.
 
 ## Features
 
@@ -178,6 +184,18 @@ This application uses a **dual authentication system**:
 ### Code Quality
 - [ESLint](https://eslint.org/) - Linting
 - [Prettier](https://prettier.io/) - Code formatting
+
+## Security & Maintenance
+
+- ✅ Automated dependency updates powered by [Dependabot](https://github.com/Kaelocs/Kaelocs/network/updates)
+- ✅ Continuous [CodeQL](https://codeql.github.com/) scanning via GitHub Actions to catch security and quality regressions
+- ✅ [Security policy](./SECURITY.md) describing how to report vulnerabilities
+
+## Community & Support
+
+- Read the [Code of Conduct](./CODE_OF_CONDUCT.md) to understand our expectations
+- Learn how to contribute in [CONTRIBUTING.md](./CONTRIBUTING.md) and get help in [SUPPORT.md](./SUPPORT.md)
+- Use the curated GitHub issue and PR templates so we can triage faster
 
 ## License
 

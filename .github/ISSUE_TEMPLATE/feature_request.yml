@@ -1,0 +1,39 @@
+name: "Feature Request"
+description: "Suggest an idea or improvement"
+labels:
+  - enhancement
+  - needs-triage
+title: "feat: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got a great idea? Tell us how this feature will make Kaelocs better for everyone.
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: What problem does this feature solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: Describe the UX, API, or DX changes you have in mind.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Did you explore other approaches?
+    validations:
+      required: false
+  - type: checkboxes
+    id: willingness
+    attributes:
+      label: Implementation
+      description: Are you willing to help build this?
+      options:
+        - label: I am willing to open a PR and collaborate on the implementation.
